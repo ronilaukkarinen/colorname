@@ -16,13 +16,12 @@ then
   HEXSPLIT=${CHAR1}${CHAR2}/${CHAR3}${CHAR4}/${CHAR5}${CHAR6}
 
   # Scrape color name from color-name.com
-  COLORNAME=$(wget -qO- "https://www.color-name.com/hex/$HEX" | hxnormalize -x | hxselect 
-".color-code" | lynx -stdin -dump -nolist | sed 's/     //g' | sed -e "s/Color Name: //g")
+  COLORNAME=$(wget -qO- "https://www.color-name.com/hex/$HEX" | hxnormalize -x | hxselect ".color-code" | lynx -stdin -dump -nolist | sed 's/     //g' | sed -e "s/Color Name: //g")
 
   # Print color in Terminal beautifully
   echo ""
   printf '\e]4;1;rgb:'"$HEXSPLIT"'\e\\\e[31m██ = #'"$HEX"', '"$COLORNAME"'\e\\'
-  
+
   # Reset colors
   # printf '\e[m'
   printf '\n'
