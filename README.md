@@ -1,6 +1,6 @@
 # Color name CLI
 
-This little bash program gets a color name as CSS variable from [color-name.com](https://www.color-name.com/).
+A little tool for getting a color name as CSS variable from [color-name.com](https://www.color-name.com/).
 
 ## Prequisities
 
@@ -17,9 +17,9 @@ This little bash program gets a color name as CSS variable from [color-name.com]
 ## Usage
 
 ```shell
-colorname 0049d1
+colorname bd93f9
 ```
 
 Outputs:
 
-<img width="778" alt="Screen-Shot-2022-09-02-13-33-07 49" src="https://user-images.githubusercontent.com/1534150/188121349-066dcf6b-369e-4a76-8999-8ea4b32b9296.png">
+<img width="734" alt="Screen-Shot-2022-09-02-13-57-03 60" src="https://user-images.githubusercontent.com/1534150/188125446-feff5b7f-1fcb-41d9-aee7-56a56d0738f9.png">
