@@ -24,7 +24,7 @@ then
 
   # Print color in Terminal beautifully
   echo ""
-  printf '\e]4;1;rgb:'"$HEX_SPLIT"'\e\\\e[31m██ = #'"$HEX"', '"$COLORNAME"'\e\\'
+  printf '\e]4;1;rgb:'"$HEX_SPLIT"'\e\\\e[31m██ '"$CSSVAR"'\e\\'
 
   # Reset colors
   # printf '\e[m'

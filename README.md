@@ -1,6 +1,6 @@
 # Color name CLI
 
-This little bash program gets a color name from [color-name.com](https://www.color-name.com/).
+This little bash program gets a color name as CSS variable from [color-name.com](https://www.color-name.com/).
 
 ## Prequisities
 
