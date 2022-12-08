@@ -7,6 +7,7 @@ A little tool for getting a color name as CSS variable from [color-name.com](htt
 * macOS
 * html-xml-utils (`brew install html-xml-utils`)
 * lynx (`brew install lynx`)
+* wget (`brew install wget`)
 
 ## Installation
 
